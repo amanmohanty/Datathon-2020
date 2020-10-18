@@ -1,1 +1,2 @@
-# Datathon-2020
+# Customer-Churn-Prediction
+With Deployment in Heroku Platform
