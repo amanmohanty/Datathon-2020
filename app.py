@@ -17,7 +17,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def hello():
     #return render_template("getInput.html")
-    return render_template("cyberDetect.html")
+    return render_template("index.html")
 
 
 if __name__ == '__main__':
