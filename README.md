@@ -11,6 +11,7 @@ The CRS tools has two parts
 2. Customer Segmentation - This uses K-means, an unsupervised machine learning algorithm, to cluster customers to different groups.
 
 ## How we built it
+
 1. Churn prediction is built with the Random Forest algorithm using scikit-learn API. The model is trained on a financial dataset and predicts the probability of a person churning the bank. The model was first deployed locally on flask and then on heroku.
 
 2. Customer Segmentation is built with Kmeans algorithm using the scikit-learn API. The model is trained on a financial dataset and groups customers into different clusters. First, the algorithm learns the number of optimal clusters from the data and then clusters the data accordingly using distance metrics. The model along with the cluster map is deployed on voila dashboard. By changing the input parameters, the cluster group of a customer can be predicted. Finally, this is deployed on heroku.
